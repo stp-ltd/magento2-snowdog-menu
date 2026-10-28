@@ -6,14 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [Unreleased]
+### Fixed
+- Custom URL field keeping the previous node type's content after changing a node's type (SMM-59)
 ### Updated
 - Bump minimatch from 3.1.2 to 3.1.5 ([#395](https://github.com/SnowdogApps/magento2-menu/pull/395))
 - Bump lodash from 4.17.21 to 4.17.23 ([#390](https://github.com/SnowdogApps/magento2-menu/pull/390))
 - Bump lodash from 4.17.23 to 4.18.1 ([#404](https://github.com/SnowdogApps/magento2-menu/pull/404))
 - Bump js-yaml from 4.1.0 to 4.1.1 ([#387](https://github.com/SnowdogApps/magento2-menu/pull/387))
+### Added
+- Dynamic menu improvements ([#317](https://github.com/SnowdogApps/magento2-menu/discussions/317))
+### Changed
+- Long Node cache tag in graphql ([#364](https://github.com/SnowdogApps/magento2-menu/pull/364))
 ### Removed
 - Frontend console log (SMM-46)
 - Unused variables from phtml files ([#357](https://github.com/SnowdogApps/magento2-menu/pull/357))
+### Fixed
+- PHP8.4 module compilation errors ([#365](https://github.com/SnowdogApps/magento2-menu/issues/365))
+- Database prefix errors ([#368](https://github.com/SnowdogApps/magento2-menu/pull/368))
 
 ## [2.28.0] - 2025-03-25
 ### Added
